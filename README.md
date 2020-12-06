@@ -1,2 +1,2 @@
-# Node.JS Docker image
-This docker image has Node.JS 14 installed.
+# Python3 Docker image
+This docker image has Python3 installed.
