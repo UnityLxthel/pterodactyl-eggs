@@ -30,12 +30,6 @@ RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
 # Install basic software support
 RUN apt-get update && \
     apt-get install --yes software-properties-common
-    
-    # Python 2 & 3
-RUN apt -y install python python-pip python3 python3-pip
-
-    # Golang
-RUN apt -y install golang
 
 USER container
 ENV  USER container
