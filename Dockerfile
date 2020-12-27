@@ -27,6 +27,9 @@ RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
     && apt -y install wget \ 
     && apt -y install curl
     
+    # Installing Nodemon
+RUN npm install -g nodemon
+    
 # Install basic software support
 RUN apt-get update && \
     apt-get install --yes software-properties-common
