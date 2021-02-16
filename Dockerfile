@@ -27,6 +27,9 @@ RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - \
     && apt -y install wget \ 
     && apt -y install curl
     
+    # Installing NeoFetch
+RUN apt install neofetch
+    
     # Installing Nodemon
 RUN npm install -g nodemon
     
